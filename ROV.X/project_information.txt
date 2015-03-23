@@ -1,11 +1,12 @@
-<Application Description for Project Goes Here>
+ROV Main control software for the FISH (First International Submersible for
+Harding). It will control the Ethernet interface, sensors, and motor controls.
 
-Project Owner(s):
-Author(s):
-Hardware Platform:
+Project Owner(s): Douglas Bailey
+Author(s): Douglas Bailey, Justin Nesselrotte
+Hardware Platform: PIC32MZ2048ECH144
 Debuggers Used:
 Programmers Used:
-MPLAB Version:
+MPLAB Version: X 2.3
 C Compiler Version:
 Final Checksum:
 
