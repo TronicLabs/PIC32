@@ -254,6 +254,10 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W0011_CORE_SIM32_UNIMPLEMENTED_RAMACCESS"
                   value="report"/>
+        <property key="warningmessagebreakoptions.W0012_CORE_STACK_OVERFLOW_RESET"
+                  value="report"/>
+        <property key="warningmessagebreakoptions.W0013_CORE_STACK_UNDERFLOW_RESET"
+                  value="report"/>
         <property key="warningmessagebreakoptions.W0101_SIM_UPDATE_FAILED"
                   value="report"/>
         <property key="warningmessagebreakoptions.W0102_SIM_PERIPH_MISSING"
@@ -303,6 +307,8 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W0221_ADC_REFERENCE_LOW_OUTPUT"
                   value="report"/>
+        <property key="warningmessagebreakoptions.W0222_ADC_OVERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0223_ADC_UNDERFLOW" value="report"/>
         <property key="warningmessagebreakoptions.W1201_DATAFLASH_MEM_OUTSIDE_RANGE"
                   value="report"/>
         <property key="warningmessagebreakoptions.W1202_DATAFLASH_ERASE_WHILE_LOCKED"
@@ -555,6 +561,10 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W0011_CORE_SIM32_UNIMPLEMENTED_RAMACCESS"
                   value="report"/>
+        <property key="warningmessagebreakoptions.W0012_CORE_STACK_OVERFLOW_RESET"
+                  value="report"/>
+        <property key="warningmessagebreakoptions.W0013_CORE_STACK_UNDERFLOW_RESET"
+                  value="report"/>
         <property key="warningmessagebreakoptions.W0101_SIM_UPDATE_FAILED"
                   value="report"/>
         <property key="warningmessagebreakoptions.W0102_SIM_PERIPH_MISSING"
@@ -604,6 +614,8 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W0221_ADC_REFERENCE_LOW_OUTPUT"
                   value="report"/>
+        <property key="warningmessagebreakoptions.W0222_ADC_OVERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0223_ADC_UNDERFLOW" value="report"/>
         <property key="warningmessagebreakoptions.W1201_DATAFLASH_MEM_OUTSIDE_RANGE"
                   value="report"/>
         <property key="warningmessagebreakoptions.W1202_DATAFLASH_ERASE_WHILE_LOCKED"
@@ -856,6 +868,10 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W0011_CORE_SIM32_UNIMPLEMENTED_RAMACCESS"
                   value="report"/>
+        <property key="warningmessagebreakoptions.W0012_CORE_STACK_OVERFLOW_RESET"
+                  value="report"/>
+        <property key="warningmessagebreakoptions.W0013_CORE_STACK_UNDERFLOW_RESET"
+                  value="report"/>
         <property key="warningmessagebreakoptions.W0101_SIM_UPDATE_FAILED"
                   value="report"/>
         <property key="warningmessagebreakoptions.W0102_SIM_PERIPH_MISSING"
@@ -905,6 +921,8 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W0221_ADC_REFERENCE_LOW_OUTPUT"
                   value="report"/>
+        <property key="warningmessagebreakoptions.W0222_ADC_OVERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0223_ADC_UNDERFLOW" value="report"/>
         <property key="warningmessagebreakoptions.W1201_DATAFLASH_MEM_OUTSIDE_RANGE"
                   value="report"/>
         <property key="warningmessagebreakoptions.W1202_DATAFLASH_ERASE_WHILE_LOCKED"
@@ -1175,6 +1193,10 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W0011_CORE_SIM32_UNIMPLEMENTED_RAMACCESS"
                   value="report"/>
+        <property key="warningmessagebreakoptions.W0012_CORE_STACK_OVERFLOW_RESET"
+                  value="report"/>
+        <property key="warningmessagebreakoptions.W0013_CORE_STACK_UNDERFLOW_RESET"
+                  value="report"/>
         <property key="warningmessagebreakoptions.W0101_SIM_UPDATE_FAILED"
                   value="report"/>
         <property key="warningmessagebreakoptions.W0102_SIM_PERIPH_MISSING"
@@ -1224,6 +1246,8 @@
                   value="report"/>
         <property key="warningmessagebreakoptions.W0221_ADC_REFERENCE_LOW_OUTPUT"
                   value="report"/>
+        <property key="warningmessagebreakoptions.W0222_ADC_OVERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0223_ADC_UNDERFLOW" value="report"/>
         <property key="warningmessagebreakoptions.W1201_DATAFLASH_MEM_OUTSIDE_RANGE"
                   value="report"/>
         <property key="warningmessagebreakoptions.W1202_DATAFLASH_ERASE_WHILE_LOCKED"
@@ -1409,7 +1433,7 @@
       <C32Global>
         <property key="common-include-directories" value=""/>
         <property key="gp-relative-option" value=""/>
-        <property key="legacy-libc" value="false"/>
+        <property key="legacy-libc" value="true"/>
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="false"/>
         <property key="wpo-lto" value="false"/>
